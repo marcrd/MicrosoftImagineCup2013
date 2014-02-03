@@ -1,0 +1,2 @@
+c:\users\justin\documents\visual studio 2010\Projects\Imaginecup2013\Imaginecup2013\Imaginecup2013Content\obj\x86\Debug\Imaginecup2013Content.contentprojResolveAssemblyReference.cache
+C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013Content\obj\x86\Debug\Imaginecup2013Content.contentprojResolveAssemblyReference.cache

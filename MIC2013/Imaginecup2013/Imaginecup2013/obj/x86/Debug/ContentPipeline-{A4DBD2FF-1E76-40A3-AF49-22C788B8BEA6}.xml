@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\playground.fbx</Source>
+      <Name>Models\playground</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\playground.xnb</Output>
+      <Time>2012-08-16T12:48:46.3882251-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\playground_0.xml</Key>
+        <Value>2012-09-23T15:35:06.9524638-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\test.fbx</Source>
+      <Name>Models\test</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>EnvironmentMappedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\test.xnb</Output>
+      <Time>2012-09-23T19:57:24.3155895-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\test_0.xml</Key>
+        <Value>2012-09-23T19:57:25.6616665-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\tPlantPot1_0.xnb</Request>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\TexturingEffect.xnb</Request>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\gravel1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Effects\PreEffects\SimpleEffect.fx</Source>
+      <Name>Effects\PreEffects\SimpleEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\SimpleEffect.xnb</Output>
+      <Time>2012-09-03T21:51:48.1972588-04:00</Time>
+      <Dependency>
+        <Key>Effects\PreEffects\EffectVar.fxh</Key>
+        <Value>2012-09-23T15:14:44.0905201-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Effects\PostEffects\PostEffect.fx</Source>
+      <Name>Effects\PostEffects\PostEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PostEffects\PostEffect.xnb</Output>
+      <Time>2012-08-16T00:36:34.6684744-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\PreEffects\TexturingEffect.fx</Source>
+      <Name>Effects\PreEffects\TexturingEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\TexturingEffect.xnb</Output>
+      <Time>2012-09-23T15:44:08.3784316-04:00</Time>
+      <Dependency>
+        <Key>Effects\PreEffects\EffectVar.fxh</Key>
+        <Value>2012-09-23T15:14:44.0905201-04:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>Effects\PreEffects\DepthEffect.fxh</Key>
+        <Value>2012-09-03T21:52:05.5252499-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Effects\PreEffects\DirectionalLighting.fx</Source>
+      <Name>Effects\PreEffects\DirectionalLighting</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\DirectionalLighting.xnb</Output>
+      <Time>2012-08-22T18:32:31.9986963-04:00</Time>
+      <Dependency>
+        <Key>Effects\PreEffects\EffectVar.fxh</Key>
+        <Value>2012-09-23T15:14:44.0905201-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Font\foglihten_48.bmp</Source>
+      <Name>Font\foglihten_48</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Font\foglihten_48.xnb</Output>
+      <Time>2012-08-18T21:52:04.8533453-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\playgroundTex.jpg</Source>
+      <Name>Terrain\playgroundTex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\playgroundTex.xnb</Output>
+      <Time>2012-08-16T12:51:08.8013706-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gravel1.jpg</Source>
+      <Name>Models\gravel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\gravel1.xnb</Output>
+      <Time>2012-09-02T11:42:40.6832561-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\tPlantPot1.jpg</Source>
+      <Name>Models\tPlantPot1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\tPlantPot1.xnb</Output>
+      <Time>2012-09-23T15:03:52.1472311-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\cube_0.xml</Output>
+      <Time>2012-06-27T00:07:31.856986-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\playground.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\playground_0.xml</Output>
+      <Time>2012-08-16T12:48:46.3882251-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\test.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\test_0.xml</Output>
+      <Time>2012-09-23T19:57:24.3155895-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\tPlantPot1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\tPlantPot1_0.xnb</Output>
+      <Time>2012-09-23T15:03:52.1472311-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gravel1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\gravel1_0.xnb</Output>
+      <Time>2012-09-02T11:42:40.6832561-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\floor1.fbx</Source>
+      <Name>Terrain\floor1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>EnvironmentMappedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\floor1.xnb</Output>
+      <Time>2012-09-02T11:54:28.1997238-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Terrain\floor1_0.xml</Key>
+        <Value>2012-09-23T15:37:46.5205906-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\gravel1_0.xnb</Request>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\TexturingEffect.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Terrain\gravel1.jpg</Source>
+      <Name>Terrain\gravel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\gravel1.xnb</Output>
+      <Time>2012-09-23T13:16:46.5537081-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\floor1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Terrain\floor1_0.xml</Output>
+      <Time>2012-09-02T11:54:28.1997238-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\gravel1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\gravel1_0.xnb</Output>
+      <Time>2012-09-23T13:16:46.5537081-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Name>Models\cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>EnvironmentMappedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Models\cube.xnb</Output>
+      <Time>2012-06-27T00:07:31.856986-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Models\cube_0.xml</Key>
+        <Value>2012-09-23T15:35:06.5604414-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\TexturingEffect.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Terrain\plantpot1.fbx</Source>
+      <Name>Terrain\plantpot1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>EnvironmentMappedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\plantpot1.xnb</Output>
+      <Time>2012-09-02T12:36:21.6324738-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Terrain\plantpot1_0.xml</Key>
+        <Value>2012-09-23T20:26:20.9199176-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\tPlantPot1_0.xnb</Request>
+      <Request>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Effects\PreEffects\TexturingEffect.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Terrain\tPlantPot1.jpg</Source>
+      <Name>Terrain\tPlantPot1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\tPlantPot1.xnb</Output>
+      <Time>2012-09-02T12:15:08.9116784-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\plantpot1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\Terrain\plantpot1_0.xml</Output>
+      <Time>2012-09-02T12:36:21.6324738-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain\tPlantPot1.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\Terrain\tPlantPot1_0.xnb</Output>
+      <Time>2012-09-02T12:15:08.9116784-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A4DBD2FF-1E76-40A3-AF49-22C788B8BEA6}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Justin\MIC2013\CustomModelEffectPipeline\bin\x86\Debug\CustomModelEffectPipeline.dll</Key>
+        <Value>2012-09-23T15:35:06.2884258-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-01-18T20:17:31.0655997-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

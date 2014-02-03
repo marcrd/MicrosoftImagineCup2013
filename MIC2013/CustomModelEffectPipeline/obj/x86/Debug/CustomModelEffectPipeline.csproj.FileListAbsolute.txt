@@ -1,0 +1,10 @@
+C:\Users\Justin\Desktop\Custom\CustomModelEffectPipeline\bin\x86\Debug\CustomModelEffectPipeline.dll
+C:\Users\Justin\Desktop\Custom\CustomModelEffectPipeline\bin\x86\Debug\CustomModelEffectPipeline.pdb
+C:\Users\Justin\Desktop\Custom\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Justin\Desktop\Custom\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.dll
+C:\Users\Justin\Desktop\Custom\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.pdb
+C:\Users\Justin\MIC2013\CustomModelEffectPipeline\bin\x86\Debug\CustomModelEffectPipeline.dll
+C:\Users\Justin\MIC2013\CustomModelEffectPipeline\bin\x86\Debug\CustomModelEffectPipeline.pdb
+C:\Users\Justin\MIC2013\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Justin\MIC2013\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.dll
+C:\Users\Justin\MIC2013\CustomModelEffectPipeline\obj\x86\Debug\CustomModelEffectPipeline.pdb

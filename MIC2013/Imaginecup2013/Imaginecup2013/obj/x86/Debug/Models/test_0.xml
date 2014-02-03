@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013Content\Models\test.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>Cube_001</Name>
+        <Transform>1 0 0 0 0 0 -1 0 0 1 0 0 -2.25949836 2.24298334 -2.31599164 1</Transform>
+        <Positions>-1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 1 -1 1 1 1 1 1 1 -1 1</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 6 17 16 16 13 6 18 5 14 14 19 18</Indices>
+            <Vertices>
+              <PositionIndices>1 0 4 5 5 6 2 1 6 7 3 2 0 3 7 4 0 1 5 4</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">-0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 0 0 0 0 1 1 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 1 1 1 0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>Cube</Name>
+        <Transform>1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1</Transform>
+        <Positions>-1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1 -1 -1 1 -1 1 1 1 1 1 1 -1 1</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource2</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 6 17 16 16 13 6 18 5 14 14 19 18</Indices>
+            <Vertices>
+              <PositionIndices>1 0 4 5 5 6 2 1 6 7 3 2 0 3 7 4 0 1 5 4</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">-0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 0.5773492 0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 -0.5773492 -0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492 0.5773492 -0.5773492 -0.5773492 0.5773492</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1.5 -0.5 -0.5 -0.5 -0.5 1.5 1.5 1.5 -0.5 1.5 1.5 1.5 1.5 -0.5 -0.5 -0.5 -0.5 1.5 1.5 1.5 1.5 -0.5 -0.5 -0.5 1.5 -0.5 -0.5 -0.5 -0.5 1.5 1.5 1.5 -0.5 1.5 1.5 1.5 1.5 -0.5 -0.5 -0.5</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>None__tPlantPot1_jpg</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013Content\Models\test.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.160000011 0.160000011 0.160000011</Data>
+        <Data Key="SpecularPower" Type="float">80</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>None__gravel1_jpg</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Justin\MIC2013\Imaginecup2013\Imaginecup2013Content\Models\test.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.160000011 0.160000011 0.160000011</Data>
+        <Data Key="SpecularPower" Type="float">80</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External2</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\..\Imaginecup2013Content\Models\tPlantPot1.jpg</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\..\..\..\Imaginecup2013Content\Models\gravel1.jpg</ExternalReference>
+  </ExternalReferences>
+</XnaContent>
